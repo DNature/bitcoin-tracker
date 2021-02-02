@@ -1,0 +1,42 @@
+@import "./styles/colors.scss";
+
+.App {
+  display: flex;
+  height: auto;
+}
+
+body {
+  // overflow: hidden;
+  background: $NavyLight;
+  font-size: 60%;
+  font-size: 0.7em;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    width: 100vw;
+    margin: 8em 2em 2em 2em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  body {
+    font-size: 70%;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .container {
+    margin: 7em 2em 2em 2em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  body {
+    font-size: 60%;
+  }
+}

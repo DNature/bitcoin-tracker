@@ -1,0 +1,47 @@
+@import "./../../styles/colors.scss";
+
+.metrics {
+  display: block;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 8em;
+  margin: 2.5em auto;
+  width: 17vw;
+  max-width: 320px;
+  min-width: 220px;
+
+  .metric-actions {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .metrics-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0;
+
+    p {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      color: $White;
+      font-weight: 400;
+    }
+    .card {
+      margin: 0.2em 0;
+      background: $NavyDark;
+      border: 1px solid $Light;
+      height: 100px;
+      max-width: 315px;
+      min-width: 200px;
+      border-radius: 3px;
+      width: inherit;
+      color: $White;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

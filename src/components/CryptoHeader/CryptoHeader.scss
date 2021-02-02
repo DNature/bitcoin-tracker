@@ -1,0 +1,94 @@
+@import "./../../styles/colors.scss";
+
+.crypto-header {
+  padding: 2em 0;
+  display: flex;
+  justify-content: space-between;
+
+  .crypto-head {
+    display: flex;
+    align-items: center;
+    h1 {
+      font-weight: 200;
+    }
+  }
+
+  .crypto-price {
+    display: flex;
+    align-items: center;
+
+    strong {
+      margin-left: 0.5em;
+      width: 100%;
+      margin-bottom: 3em;
+    }
+
+    h1 {
+      padding: 0;
+    }
+  }
+
+  h1 {
+    color: $White;
+  }
+
+  span.symbol {
+    color: $Light;
+  }
+
+  .crypto-type {
+    height: 7em;
+    width: 7em;
+    border-radius: 0.25em;
+    margin-right: 2em;
+    background: $NavyDark;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .crypto-icon {
+    fill: $Primary;
+    height: 60%;
+  }
+
+  .bitcoin-icon {
+    height: 70%;
+
+    fill: transparent;
+    // background: red;
+  }
+}
+
+-webkit-keyframes neon3 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff,
+      0 0 70px #fff, 0 0 120px #fff, 0 0 140px #fff;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff,
+      0 0 35px #fff, 0 0 70px #fff, 0 0;
+  }
+}
+
+@-moz-keyframes neon3 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff,
+      0 0 70px #fff, 0 0 140px #fff;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff,
+      0 0 35px #fff, 0 0;
+  }
+}
+
+@keyframes neon3 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff,
+      0 0 70px #fff, 0 0 140px #fff;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff,
+      0 0 35px #fff, 0 0;
+  }
+}
