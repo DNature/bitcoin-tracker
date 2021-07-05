@@ -1,7 +1,6 @@
 {
-  "name": "crypto-dashboard",
+  "name": "crypto-compare",
   "version": "0.1.0",
-  "author": "Jared Booker <jaredbooker10@gmail.com>",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
